@@ -30,7 +30,7 @@ p: [B, 256]
    - Local pressure variations were captured by computing KNN-based Laplacian statistics over FEM points.
 
 $$
-Laplacian_i = p_i - (1 / K) * sum_{j in N(i)} p_j
+\text{Laplacian}_i = p_i - \frac{1}{K} \sum_{j \in \mathcal{N}(i)} p_j
 $$
 
 ## Models & Architecture
