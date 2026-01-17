@@ -16,10 +16,13 @@
 ## Feature Engineering
 **1. Grid-based FEM Depth Representation**
    - FEM pressure values were interpolated onto a 2D grid to construct depth maps based on pressure $p$.
+
 **2. Laplacian-KNN Statistics**
    - Local pressure variations were captured by computing KNN-based Laplacian statistics over FEM points. 
 
 ## Models
-Tree-based models: CatBoost, XGBoost
-Deep model: Swin Transformer
-Ensemble strategy: Out-of-fold (OOF) probability-based ensemble with AUC-oriented weighting
+**Tree-based models**: CatBoost, XGBoost
+
+**Deep model**: Swin Transformer
+
+**Ensemble strategy**: Out-of-fold (OOF) probability-based ensemble with AUC-oriented weighting
