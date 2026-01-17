@@ -100,7 +100,7 @@ df_fem_test = df_fem_test.drop(columns=x_fem+y_fem+p_fem)
 print(f"df_fem_train:{df_fem_train.shape}")
 
 fem_engineered_cols = [c for c in df_fem_train.columns
-                       if c.startswith("lap_") or c.startswith("p_pca_")]
+                       if c.startswith("lap_")]
 
 FEM_train_feat = df_fem_train[fem_engineered_cols].reset_index(drop=True)
 FEM_test_feat = df_fem_test[fem_engineered_cols].reset_index(drop=True)
