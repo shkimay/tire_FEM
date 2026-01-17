@@ -36,4 +36,4 @@ p: [B, 256]
 
 **Ensemble strategy**: Out-of-fold (OOF) probability-based ensemble with AUC-oriented weighting
 
-[modelArchitecture]
+[modelArchitecture](assets/img1.png)
