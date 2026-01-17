@@ -14,7 +14,8 @@
 
 $$
 x: [B, 256], y: [B, 256], p: [B, 256]
-
+$$
+$$
 X_loc, Y_loc: [B, K], K=5 (location points)
 $$
 
