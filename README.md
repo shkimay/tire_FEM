@@ -27,7 +27,11 @@ p: [B, 256]
    - FEM pressure values were interpolated onto a 2D grid to construct depth maps based on pressure $p$.
 
 **2. Laplacian-KNN Statistics**
-   - Local pressure variations were captured by computing KNN-based Laplacian statistics over FEM points. 
+   - Local pressure variations were captured by computing KNN-based Laplacian statistics over FEM points.
+
+$$
+Laplacian_i = p_i - (1 / K) * sum_{j in N(i)} p_j
+$$
 
 ## Models & Architecture
 **Tree-based models**: CatBoost, XGBoost
