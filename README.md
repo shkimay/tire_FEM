@@ -18,7 +18,7 @@ y: [B, 256]
 p: [B, 256]
 ```
 
-- Sequencial data: `X_location`, `Y_location`: [B, K], K=5 (location points), `G_statistics`: [B, T]
+- Sequencial data: `X_location, Y_location`: `[B, K]`, K=5 (location points), `G_statistics`: `[B, T]`
 
 - Tabular data: process parameters and design-related attributes
 
