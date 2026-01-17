@@ -34,12 +34,14 @@ $$
 $$
 
 ## Models & Architecture
-**Tree-based models**: CatBoost, XGBoost
+
 
 **Deep model**: Swin Transformer
 
+![modelArchitecture](assets/img1.png)
+
+**Tree-based models**: CatBoost, XGBoost
+
 **Ensemble strategy**: Out-of-fold (OOF) probability-based ensemble with AUC-oriented weighting
 
-
-![modelArchitecture](assets/img1.png)
 ![modelArchitecture2](assets/img2.png)
