@@ -29,9 +29,11 @@ p: [B, 256]
 **2. Laplacian-KNN Statistics**
    - Local pressure variations were captured by computing KNN-based Laplacian statistics over FEM points. 
 
-## Models
+## Models & Architecture
 **Tree-based models**: CatBoost, XGBoost
 
 **Deep model**: Swin Transformer
 
 **Ensemble strategy**: Out-of-fold (OOF) probability-based ensemble with AUC-oriented weighting
+
+[modelArchitecture]
