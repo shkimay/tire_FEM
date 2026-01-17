@@ -12,12 +12,11 @@
 ## Data
 - FEM simulation data: $$(x,y,p)$$ at 256 points
 
-$$
-x: [B, 256], y: [B, 256], p: [B, 256]
-$$
-$$
-X_loc, Y_loc: [B, K], K=5 (location points)
-$$
+'x: [B, 256]
+y: [B, 256]
+p: [B, 256]
+X_location, Y_location: [B, K], K=5 (location points)
+'
 
 - Tabular data: process parameters and design-related attributes
 
