@@ -14,6 +14,8 @@
 
 $$
 x: [B, 256], y: [B, 256], p: [B, 256]
+
+location points) X_loc, Y_loc: [B, K], K=5
 $$
 
 - Tabular data: process parameters and design-related attributes
