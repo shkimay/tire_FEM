@@ -394,7 +394,6 @@ submission['probability'] = np.concatenate([test_preds,test_preds])
 test_idx_sorted = np.argsort(test_preds)
 lowest200_preds = test_preds[test_idx_sorted[:200]]
 
-print(f"test oof 111: {test_preds[test_idx_sorted[111]]}")
 test_pred_bin = (test_preds > best_thr*1.15).astype(int)
 test_approval = (test_pred_bin == 0)
 num_approval = test_approval.sum()
